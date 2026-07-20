@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>محصولات سنتی یزد</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Vazirmatn',sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:30px;
+    background:
+    linear-gradient(rgba(255,248,231,.92),rgba(255,248,231,.92)),
+    url("https://images.unsplash.com/photo-1516483638261-f4dbaf036963?q=80&w=1600&auto=format&fit=crop");
+    background-size:cover;
+    background-position:center;
+}
+
+.card{
+    width:400px;
+    max-width:100%;
+    background:rgba(255,255,255,0.92);
+    backdrop-filter:blur(8px);
+    border:3px solid #D4A373;
+    border-radius:30px;
+    padding:35px 25px;
+    text-align:center;
+    box-shadow:0 15px 40px rgba(92,64,51,.2);
+}
+
+.logo{
+    width:120px;
+    height:120px;
+    object-fit:cover;
+    border-radius:50%;
+    border:5px solid #D4A373;
+    margin-bottom:18px;
+}
+
+h1{
+    color:#8B5A2B;
+    font-size:30px;
+    margin-bottom:8px;
+}
+
+.subtitle{
+    color:#6D4C41;
+    margin-bottom:30px;
+    font-size:15px;
+}
+
+.btn{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    width:100%;
+    padding:15px;
+    margin:12px 0;
+    text-decoration:none;
+    color:white;
+    border-radius:16px;
+    font-size:17px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-4px);
+}
+
+.telegram{
+    background:linear-gradient(135deg,#8B5A2B,#A47148);
+}
+
+.instagram{
+    background:linear-gradient(135deg,#C17C3A,#D4A373);
+}
+
+.phone{
+    background:linear-gradient(135deg,#6D4C41,#8D6E63);
+}
+
+.footer{
+    margin-top:25px;
+    color:#8B5A2B;
+    font-size:14px;
+    border-top:1px solid #EAD7B7;
+    padding-top:15px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <!-- لوگوی کسب‌وکار -->
+    <img src="/kavire_round.png" alt="لوگو" class="logo">
+
+    <h1>محصولات سنتی یزد</h1>
+
+    <p class="subtitle">
+        روغن کنجد، قطاب، باقلوا، شیرینی یزدی و محصولات اصیل ایرانی
+    </p>
+
+    <!-- لینک تلگرام -->
+    <a href="https://t.me/YourID" class="btn telegram" target="_blank">
+        📩 کانال تلگرام
+    </a>
+
+    <!-- لینک اینستاگرام -->
+    <a href="https://instagram.com/YourID" class="btn instagram" target="_blank">
+        📷 اینستاگرام
+    </a>
+
+    <!-- شماره تماس -->
+    <a href="tel:09123456789" class="btn phone">
+        ☎️ ۰۹۱۲۳۴۵۶۷۸۹
+    </a>
+
+    <div class="footer">
+        🌿 طعم اصیل یزد، هدیه‌ای از دل کویر
+    </div>
+
+</div>
+
+</body>
+</html>
